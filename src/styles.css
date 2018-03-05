@@ -2,3 +2,165 @@
 
 @import '~normalize.css/normalize.css';
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+body {
+  overflow: hidden;
+  background: #000;
+}
+body .outer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: -112.5px;
+  -ms-transform-origin: 225% 0%;
+  -webkit-transform-origin: 225% 0%;
+  -moz-transform-origin: 225% 0%;
+  -o-transform-origin: 225% 0%;
+  transform-origin: 225% 0%;
+}
+body .outer:nth-child(1) {
+  -ms-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+body .outer:nth-child(2) {
+  -ms-transform: rotate(40deg);
+  -webkit-transform: rotate(40deg);
+  transform: rotate(40deg);
+}
+body .outer:nth-child(3) {
+  -ms-transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+body .outer:nth-child(4) {
+  -ms-transform: rotate(80deg);
+  -webkit-transform: rotate(80deg);
+  transform: rotate(80deg);
+}
+body .outer:nth-child(5) {
+  -ms-transform: rotate(100deg);
+  -webkit-transform: rotate(100deg);
+  transform: rotate(100deg);
+}
+body .outer:nth-child(6) {
+  -ms-transform: rotate(120deg);
+  -webkit-transform: rotate(120deg);
+  transform: rotate(120deg);
+}
+body .outer:nth-child(7) {
+  -ms-transform: rotate(140deg);
+  -webkit-transform: rotate(140deg);
+  transform: rotate(140deg);
+}
+body .outer:nth-child(8) {
+  -ms-transform: rotate(160deg);
+  -webkit-transform: rotate(160deg);
+  transform: rotate(160deg);
+}
+body .outer:nth-child(9) {
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+body .outer:nth-child(10) {
+  -ms-transform: rotate(200deg);
+  -webkit-transform: rotate(200deg);
+  transform: rotate(200deg);
+}
+body .outer:nth-child(11) {
+  -ms-transform: rotate(220deg);
+  -webkit-transform: rotate(220deg);
+  transform: rotate(220deg);
+}
+body .outer:nth-child(12) {
+  -ms-transform: rotate(240deg);
+  -webkit-transform: rotate(240deg);
+  transform: rotate(240deg);
+}
+body .outer:nth-child(13) {
+  -ms-transform: rotate(260deg);
+  -webkit-transform: rotate(260deg);
+  transform: rotate(260deg);
+}
+body .outer:nth-child(14) {
+  -ms-transform: rotate(280deg);
+  -webkit-transform: rotate(280deg);
+  transform: rotate(280deg);
+}
+body .outer:nth-child(15) {
+  -ms-transform: rotate(300deg);
+  -webkit-transform: rotate(300deg);
+  transform: rotate(300deg);
+}
+body .outer:nth-child(16) {
+  -ms-transform: rotate(320deg);
+  -webkit-transform: rotate(320deg);
+  transform: rotate(320deg);
+}
+body .outer:nth-child(17) {
+  -ms-transform: rotate(340deg);
+  -webkit-transform: rotate(340deg);
+  transform: rotate(340deg);
+}
+body .outer:nth-child(18) {
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+body .inner {
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite;
+  -moz-animation: spin 2s linear infinite;
+  -o-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+body .inner:before, body .inner:after {
+                      content: "";
+                      position: absolute;
+                      width: 10px;
+                      height: 10px;
+                      background: #fff;
+                      box-shadow: 0 0 10px 1px #fff;
+                      border-radius: 50%;
+                      top: 50%;
+                      margin-top: -5px;
+                    }
+body .inner:before {
+  left: -5px;
+}
+body .inner:after {
+  left: 45px;
+}

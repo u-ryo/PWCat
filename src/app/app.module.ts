@@ -7,6 +7,8 @@ import { MatToolbarModule, MatCardModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { ImgCardComponent } from './img-card/img-card.component';
 
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { ImgCardComponent } from './img-card/img-card.component';
   imports: [
     BrowserModule,
     MatToolbarModule,
-    MatCardModule
+    MatCardModule,
+    environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : []
   ],
   providers: [],
   bootstrap: [AppComponent]

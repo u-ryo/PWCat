@@ -9,12 +9,14 @@
       "urls": [
         "/PWCat/favicon.ico",
         "/PWCat/index.html",
-        "/PWCat/inline.ff4aefcb0caa5562b925.bundle.js",
-        "/PWCat/main.c9a5af0522fe8e1b6f9d.bundle.js",
+        "/PWCat/inline.6a2274f2a0ad5f021677.bundle.js",
+        "/PWCat/main.1224228ff6c94fc684d0.bundle.js",
         "/PWCat/polyfills.f20484b2fa4642e0dca8.bundle.js",
         "/PWCat/styles.bfa6268c7ac7c2fe2eb6.bundle.css"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/cataas\\.com\\/.*"
+      ]
     },
     {
       "name": "assets",
@@ -31,15 +33,15 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/PWCat/inline.ff4aefcb0caa5562b925.bundle.js": "ee77299b3f26654a17940f241a606234a71baf01",
+    "/PWCat/inline.6a2274f2a0ad5f021677.bundle.js": "95ee72256d2957daf7f51e89c525353d04219614",
     "/PWCat/assets/icon-128x128.png": "336dd59d3a53c80db8b5982994d44d1309bd3a61",
-    "/PWCat/main.c9a5af0522fe8e1b6f9d.bundle.js": "14db4a1a9d2c27dbe111d441e3630bc5cc64ebf5",
+    "/PWCat/main.1224228ff6c94fc684d0.bundle.js": "da1b48cfdc1368898b5f4fa4b839e93ec0de5d27",
     "/PWCat/assets/icon-152x152.png": "e1412ed10ad41f4322a29c0b8701ffbbb270bc7e",
     "/PWCat/polyfills.f20484b2fa4642e0dca8.bundle.js": "0b0af365e031b7cbba789493d311e94192720c68",
     "/PWCat/assets/icon-256x256.png": "5fdeb29e04cbda8040a1d0626913a8827d5c4787",
     "/PWCat/styles.bfa6268c7ac7c2fe2eb6.bundle.css": "2560ddb8048a35a0c481da4bc894b1f40429adf9",
     "/PWCat/assets/icon-512x512.png": "95706a962345e4c7b6af31868576ebe80cb68940",
     "/PWCat/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/PWCat/index.html": "9ce40deee32172627468fca987b21caa34b6c873"
+    "/PWCat/index.html": "c48f155d499d4ad57c16606cb67b6184ea7e2d99"
   }
 }

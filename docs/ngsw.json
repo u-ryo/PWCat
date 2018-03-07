@@ -14,9 +14,7 @@
         "/PWCat/polyfills.f20484b2fa4642e0dca8.bundle.js",
         "/PWCat/styles.bfa6268c7ac7c2fe2eb6.bundle.css"
       ],
-      "patterns": [
-        "https:\\/\\/cataas\\.com\\/.*"
-      ]
+      "patterns": []
     },
     {
       "name": "assets",
@@ -28,7 +26,9 @@
         "/PWCat/assets/icon-256x256.png",
         "/PWCat/assets/icon-512x512.png"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/cataas\\.com\\/.*"
+      ]
     }
   ],
   "dataGroups": [],

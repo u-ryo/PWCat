@@ -12,9 +12,6 @@
         "/*.bundle.css",
         "/*.bundle.js",
         "/*.chunk.js"
-      ],
-      "urls": [
-        "https://cataas.com/**"
       ]
     }
   }, {
@@ -24,6 +21,9 @@
     "resources": {
       "files": [
         "/assets/**"
+      ],
+      "urls": [
+        "https://cataas.com/**"
       ]
     }
   }]

@@ -1,5 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 
+class CatImage {
+  message: string;
+  api: string;
+  fontsize: number;
+}
+
+class Button {
+  color: string;
+  disabled: boolean;
+  text: string;
+}
+
 @Component({
   selector: 'app-img-card',
   templateUrl: './img-card.component.html',
@@ -8,7 +20,7 @@ import { Component, OnInit } from '@angular/core';
 export class ImgCardComponent implements OnInit {
 
   private image: CatImage = {
-    message: 'PROGRESSIVE WEB CAT',
+    message: 'Progressive Web Cat',
     api: 'https://cataas.com/cat/says/',
     fontsize: 40
   };
@@ -36,16 +48,4 @@ export class ImgCardComponent implements OnInit {
       + '?size=' + this.image.fontsize
       + '&ts=' + Date.now();
   }
-}
-
-class CatImage {
-  message: string;
-  api: string;
-  fontsize: number;
-}
-
-class Button {
-  color: string;
-  disabled: boolean;
-  text: string;
 }

@@ -1,7 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { MatToolbarModule, MatCardModule } from '@angular/material';
+import {
+  MatToolbarModule,
+  MatCardModule,
+  MatButtonModule
+} from '@angular/material';
 
 
 import { AppComponent } from './app.component';
@@ -19,6 +23,7 @@ import { environment } from '../environments/environment';
     BrowserModule,
     MatToolbarModule,
     MatCardModule,
+    MatButtonModule,
     environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : []
   ],
   providers: [],
